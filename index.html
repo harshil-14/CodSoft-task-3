@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scientific Calculator-your real time calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="t1" placeholder="0" /><br /><br />
+      <button onclick="backspace()">CE</button>
+      <button onclick="fact()">X!</button>
+      <button class="btn">(</button>
+      <button class="btn">)</button>
+      <button class="btn">%</button>
+      <button onclick="screen.value=''">CLEAR</button><br /><br />
+
+      <button onclick="sin()">SIN</button>
+      <button onclick="pi()">&#8508;</button>
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn">/</button><br /><br />
+
+      <button onclick="cos()">COS</button>
+      <button onclick="log()">LOG</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">*</button><br /><br />
+
+      <button onclick="tan()">TAN</button>
+      <button onclick="sqrt()">&#8730;</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">-</button><br /><br />
+
+      <button onclick="e()">e</button>
+      <button onclick="pow()">x<sup>2</sup></button>
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button onclick="screen.value=eval(screen.value);">=</button>
+      <button class="btn">+</button><br /><br />
+
+      <button onclick="radian()">radian</button>
+      <button onclick="degree()">degree</button><br /><br />
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
